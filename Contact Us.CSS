@@ -1,0 +1,196 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#contactus{
+    color: #d6cfdf;
+    text-decoration: #CCCCCC double underline;
+    text-align: center;
+    font-size: 3.7rem;
+    text-shadow: 8px 6px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-left: 1%;
+    animation: fadeIn 4s ease-in-out; 
+}
+
+body {
+    /* background-color: #561D25; */
+    background: linear-gradient(to right, #0f1d58, rgb(13, 24, 34) ); /* Gradient Background */
+}
+
+#MAFLogo {
+    width: 150px;
+    height: 145px;
+    margin-left: 180px;
+    margin-bottom: -150px;
+    padding-top: 20px;
+}
+
+
+
+#Link01 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: auto;
+    background: linear-gradient(to right, #6a1b9a, #3f51b5);
+    margin-top: 10px;
+    
+
+}
+
+#Link01 a {
+    color: #f1f1f1;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    margin-left: 150px;
+    margin-right: 140px;
+    gap: 200px;
+    transition: color 0.15s ease;
+
+}
+
+#Link01 a:hover {
+    color: orange;
+}
+
+
+
+#getintouch {
+    color: #CCCCCC;
+    padding-left: 45px;
+    margin-top: 20px;
+    font-size: 2.6rem;
+    text-decoration: #CCCCCC double underline;
+    padding-top: 40px;
+    text-shadow: 15px 4px 12px rgba(168, 160, 160, 0.5);
+
+}
+
+#getintouchdatabox {
+    background: linear-gradient(to right, #0f1d58, #1c3d74, #00a8ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 15px 5px 15px rgba(255, 255, 255, 0.2);
+    height: 120px; /* Reduced height for better fit */
+    width: 80%;
+    max-width: 1000px;
+    margin: 50px auto; /* Centers the box */
+    padding: 20px;
+    transition: transform 0.3s ease;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+#getintouchdata {
+    font-weight: bold;
+    color: #F4F4F4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    text-align: center;
+    max-width: 92%;
+    gap: 20px;
+}
+
+#getintouchdatabox:hover {
+    transform: scale(1.1);
+} 
+
+/* Platform Heading Styling */
+.platform-heading {
+    font-size: 2.6rem;
+    color: #CCCCCC;
+    text-decoration: double underline #CCCCCC;
+    text-shadow: 10px 5px 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+/* Center all sections and apply box styling */
+.social-section {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 40%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #25D366, #128C7E); /* Default gradient */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for box with color change */
+.social-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
+}
+
+/* Info Text Styling */
+#Whatsappdata, #Facebookdata, #Instagramdata {
+    color: #ffffff;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+/* GIFs Styling */
+#WhatsAppGIF, #FacebookGIF, #InstagramGIF {
+    width: 100px;
+    height: 100px;
+    transition: 0.3s ease-in-out;
+}
+
+/* GIF Hover Effect */
+#WhatsAppGIF:hover, #FacebookGIF:hover, #InstagramGIF:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
+}
+
+/* Contact Buttons */
+.contact-btn {
+    display: inline-block;
+    color: white;
+    font-size: 1.1rem;
+    font-family: Helvetica;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+/* Unique Colors for Each Button */
+.whatsapp-btn { background: #25D366; }
+.facebook-btn { background: #1877F2; }
+.instagram-btn { background: #E1306C; }
+
+/* Button Hover Effects */
+.whatsapp-btn:hover { background: #128C7E; }
+.facebook-btn:hover { background: #0F5BB5; }
+.instagram-btn:hover { background: #C13584; }
+
+/* Custom gradients for each section */
+#whatsapp-section { background: linear-gradient(to right, #25D366, #128C7E); }
+#facebook-section { background: linear-gradient(to right, #1877F2, #0F5BB5); }
+#instagram-section { background: linear-gradient(to right, #E1306C, #C13584); }
+
+
+
+#Footer {
+    background-color: #F4F4F4;
+    font-size: 19px;
+    color: #102464;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,251 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#Memories{
+    
+    color: #d6cfdf;
+    text-decoration: #CCCCCC double underline;
+    text-align: center;
+    font-size: 3.7rem;
+    text-shadow: 8px 6px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-left: 2%;
+    animation: fadeIn 4s ease-in-out;  
+}
+
+body {
+    /* background-color: #561D25; */
+    background: linear-gradient(to right, #0f1d58, rgb(13, 24, 34) ); /* Gradient Background */
+}
+
+#MAFLogo {
+    width: 150px;
+    height: 145px;
+    margin-left: 170px;
+    margin-bottom: -150px;
+    padding-top: 20px;
+}
+
+
+
+#Link01 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: auto;
+    background: linear-gradient(to right, #6a1b9a, #3f51b5);
+    margin-top: 10px;
+    
+
+}
+
+#Link01 a {
+    color: #f1f1f1;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    margin-left: 150px;
+    margin-right: 140px;
+    gap: 200px;
+    transition: color 0.15s ease;
+
+}
+
+#Link01 a:hover {
+    color: orange;
+}
+
+
+
+
+#Schooltime {
+    color: #f8f8f8;
+    text-decoration: #d6d6d5 wavy underline;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 8px 6px 4px rgba(0, 0, 0, 0.5);
+}
+    
+   
+
+#Schooltimeimages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align images */
+    gap: 20px; /* Space between images */
+    padding: 20px;
+
+}
+
+#Schooltimeimages img {
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.6), 
+                0px 0px 10px rgba(255, 255, 255, 0.2); /* Soft outer glow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 400px;
+    max-height: 280px;
+    border: 3px solid rgba(49, 21, 10, 0.3); /* Soft classic border */
+}
+
+#Schooltimeimages img:hover {
+    transform: scale(1.07);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.7), 
+                0px 0px 15px rgba(255, 255, 255, 0.4);
+}
+
+#Collegetime {
+    color: #f8f8f8;
+    text-decoration: #d6d6d5 wavy underline;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 8px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+#Collegetimeimages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align images */
+    gap: 20px; /* Space between images */
+    padding: 20px;
+
+}
+
+#Collegetimeimages img {
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.6), 
+                0px 0px 10px rgba(255, 255, 255, 0.2); /* Soft outer glow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 400px;
+    height: 280px;
+    border: 3px solid rgba(49, 21, 10, 0.3); /* Soft classic border */
+}
+
+#Collegetimeimages img:hover {
+    transform: scale(1.07);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.7), 
+                0px 0px 15px rgba(255, 255, 255, 0.4);
+}
+
+#Coaching {
+    color: #f8f8f8;
+    text-decoration: #d6d6d5 wavy underline;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 8px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+#Coachingimages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align images */
+    gap: 20px; /* Space between images */
+    padding: 20px;
+
+}
+
+#Coachingimages img {
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.6), 
+                0px 0px 10px rgba(255, 255, 255, 0.2); /* Soft outer glow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 400px;
+    height: 280px;
+    border: 3px solid rgba(49, 21, 10, 0.3); /* Soft classic border */
+}
+
+#Coachingimages img:hover {
+    transform: scale(1.07);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.7), 
+                0px 0px 15px rgba(255, 255, 255, 0.4);
+}
+
+#FriendsSiblings {
+    color: #f8f8f8;
+    text-decoration: #d6d6d5 wavy underline;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 8px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+#FriendsSiblingsimages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align images */
+    gap: 20px; /* Space between images */
+    padding: 20px;
+
+}
+
+#FriendsSiblingsimages img {
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.6), 
+                0px 0px 10px rgba(255, 255, 255, 0.2); /* Soft outer glow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 400px;
+    height: 280px;
+    border: 3px solid rgba(49, 21, 10, 0.3); /* Soft classic border */
+}
+
+#FriendsSiblingsimages img:hover {
+    transform: scale(1.07);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.7), 
+                0px 0px 15px rgba(255, 255, 255, 0.4);
+}
+
+#Solo {
+    color: #f8f8f8;
+    text-decoration: #d6d6d5 wavy underline;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 8px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+#Soloimages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align images */
+    gap: 20px; /* Space between images */
+    padding: 20px;
+
+}
+
+#Soloimages img {
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 10px 12px 15px rgba(0, 0, 0, 0.6), 
+                0px 0px 10px rgba(255, 255, 255, 0.2); /* Soft outer glow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    max-width: 400px;
+    height: 280px;
+    border: 3px solid rgba(49, 21, 10, 0.3); /* Soft classic border */
+}
+
+#Soloimages img:hover {
+    transform: scale(1.07);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.7), 
+                0px 0px 15px rgba(255, 255, 255, 0.4);
+}
+
+#Footer {
+    background-color: #F4F4F4;
+    font-size: 19px;
+    color: #102464;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-bottom: 0px;
+}
